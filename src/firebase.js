@@ -1,9 +1,9 @@
 import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore"
-import { collection, addDoc, getDocs } from "@firebase/firestore"; // Perbarui ini
+import { getFirestore, collection, addDoc } from "firebase/firestore";
 
 
 // Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyCAs2rgJeI7u9nk52Jo_qrI9Cnbo_UJRW0",
   authDomain: "portfolio-b06a1.firebaseapp.com",
